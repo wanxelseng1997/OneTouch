@@ -1,0 +1,35 @@
+body {
+  background: url('foto.jpg') center top no-repeat;
+  background-size: auto;
+  background-attachment: scroll; /* фон прокручивается */
+  background-color: #000;
+  font-family: Georgia, serif;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1, h2 {
+  text-shadow: 2px 2px 8px #000;
+}
+
+
+#about {
+  margin: 300px auto 10px auto;
+}
+
+#projects {
+margin: 10px auto;
+}
+
+#contacts {
+margin: 10px auto;
+}
+
+section {
+  margin: 300px auto;
+  max-width: 500px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+}
